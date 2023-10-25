@@ -1,0 +1,32 @@
+.toggleTheme {
+    position: fixed;
+    left: 5rem;
+    top: 5rem;
+}
+.toggleTheme_input {
+    display: none;
+}
+.toggleTheme_label {
+    cursor: pointer;
+    background-color: rgb(var(--background));
+    width: 40px;
+    height: 20px;
+    position: relative;
+    display: inline-block;
+    border-radius: 40px;
+}
+.toggleTheme_label::before {
+    content: '';
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    width: 16px;
+    height: 16px;
+    background-color: red;
+    border-radius: 50%;
+    transition: .8s cubic-bezier(1, 0.03, 0, 1);
+}
+.toggleTheme_input:checked + .toggleTheme_label::before {
+    left: 22px;
+    transition: .8s cubic-bezier(1, 0.03, 0, 1);
+}

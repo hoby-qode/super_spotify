@@ -1,0 +1,62 @@
+.controlsButton {
+    background: none;
+    width: 40px;
+    height: 40px;
+    outline: 0;
+    border: 0;
+    color: #fff;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition:.5s;
+    border-radius: 50%;
+}
+.controlsButton:hover {
+    background-color: var(--background);
+    color: rgb(var(--color-primary));
+    transition:.5s;
+}
+@media screen and (max-width:768px) {
+    .controlsButton {
+        margin-left: auto;
+        padding-right: 0;
+    }
+}
+.controlsVolume::-webkit-slider-thumb {
+    border: none;
+    height: 16px;
+    width: 16px;
+    border-radius: 50%;
+    background: red;
+    border: 4px solid var(--white);
+    margin-top: -10px;
+}
+
+
+.controlsVolume {
+  -webkit-appearance: none;
+}
+.controlsVolume::-webkit-slider-runnable-track {
+  width: 300px;
+  height: 3px;
+  background: var(--background);
+  border: none;
+  border-radius: 15px;
+}
+.controlsVolume::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  border: none;
+  height: 16px;
+  width: 16px;
+  border-radius: 50%;
+  background: rgb(var(--color-primary));
+  border: 4px solid var(--border);
+  margin-top: -6px;
+}
+
+.controlsVolume:focus {
+  outline: none;
+}
+

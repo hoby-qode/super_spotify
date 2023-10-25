@@ -1,0 +1,12 @@
+.subtitle {
+    color: rgba(var(--text-color), .3);
+}
+.title {
+    text-transform: initial;
+    font-weight: 700;
+    color: rgb(var(--text-color));
+}
+h2.title {
+    font-size: 3rem;
+    color: rgb(var(--text-color));
+}

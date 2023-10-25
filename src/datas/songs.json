@@ -1,0 +1,71 @@
+[
+    {
+        "id" : 0,
+        "title" : "Masoandro hafa1",
+        "artist" : "Agrad skaiz",
+        "album" : "lorem1",
+        "genre" : "RNB",
+        "src": "/audios/agrad_skaiz-masoandro_hafa3.mp3",
+        "poster": "/posters/3249ebb84dc9a88175a9eee5d6fd98cf.jpg",
+        "duration": 280,
+        "releaseDate" : "2023/10/12"
+    },
+    {
+        "id" : 1,
+        "title" : "Ampy ahy1",
+        "artist" : "Ambondrona",
+        "album" : "lorem2",
+        "genre" :  "RNB",
+        "src": "/audios/ambondrona-ampy_ahy.mp3",
+        "poster": "/posters/c13241168143671.64556d321e3c3.jpg",
+        "duration": 280,
+        "releaseDate" : "2023/10/12"
+    },
+    {
+        "id" : 2,
+        "title" : "Halo1",
+        "artist" : "Beyoncé",
+        "album" : "lorem3",
+        "genre" :"RNB",
+        "src": "/audios/Beyoncé-Halo3.mp3",
+        "poster": "/posters/d5854f28f614761ebe7ab1071523ae8c.jpg",
+        "duration": 280,
+        "releaseDate" : "2023/10/12"
+    },
+    {
+        "id" : 3,
+        "title" : "test Masoandro hafa",
+        "artist" : "Agrad skaiz",
+        "album" : "lorem4",
+        "genre" :  "RNB",
+        "src": "/audios/agrad_skaiz-masoandro_hafa1.mp3",
+        "poster": "/posters/3249ebb84dc9a88175a9eee5d6fd98cf.jpg",
+        "duration": 280,
+        "releaseDate" : "2023/10/12"
+    },
+    {
+        "id" : 4,
+        "title" : "Ampy ahy3",
+        "artist" : "Ambondrona",
+        "album" : "lorem5",
+        "genre" : "RNB",
+        "src": "/audios/ambondrona-ampy_ahy1.mp3",
+        "poster": "/posters/c13241168143671.64556d321e3c3.jpg",
+        "duration": 280,
+        "releaseDate" : "2023/10/12"
+    },
+    {
+        "id" : 5,
+        "title" : "Halo3",
+        "artist" : "Beyoncé",
+        "album" : "lorem6",
+        "genre" : "RNB",
+        "src": "/audios/Beyoncé-Halo.mp3",
+        "poster": "/posters/d5854f28f614761ebe7ab1071523ae8c.jpg",
+        "duration": 280,
+        "releaseDate" : "2023/10/12"
+    }
+]
+
+
+  

@@ -1,0 +1,23 @@
+.trackItem {
+    text-decoration: none;
+    padding: 10px 5px;
+    margin-bottom: 2px;
+    border-radius: var(--radius);
+    color: rgb(var(--text-color));
+}
+.trackItem__active {
+    backdrop-filter: var(--backdrop-filter);
+    background-color: var(--bg-card);
+}
+.trackItem__analyzer svg {
+    width: 30px;
+}
+.trackItem__active .trackItem__title,.trackItem__active .trackItem__analyzer {
+    color: rgb(var(--color-primary));
+}
+.trackItem__artist {
+    color: rgba(var(--text-color),.5);
+}
+.trackItem__active .trackItem__artist {
+    color: rgb(var(--text-color));
+}

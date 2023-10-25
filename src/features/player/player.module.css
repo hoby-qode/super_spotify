@@ -1,0 +1,41 @@
+.player {
+    background-color: rgb(var(--background), .1);
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+    backdrop-filter: var(--backdrop-filter);
+    border-top: 1px solid rgb(var(--border-color));
+}
+.player_infos_picture {
+    display: flex;
+    margin-right: 20px;
+}
+@media screen and (max-width:768px) {
+    .player_infos_picture {
+        display: none;
+    } 
+}
+.player_infos_title h2 {
+    font-weight: 400;
+    margin-bottom: 0;
+    font-variation-settings: "wght" 400;
+    color: var(--text-color);
+}
+.player_infos_title strong {
+    font-variation-settings:"wght" 600, "wdth" 150;
+    font-weight: normal;
+    color: var(--text-color);
+}
+@media screen and (max-width:768px) {
+    .player_infos_title {
+        position: absolute;
+        top: 10px;
+        left: 15px;
+        z-index: 10;
+    }
+    .player_infos_title h2 {
+        margin-top: 0;
+    }
+}

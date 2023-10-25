@@ -1,0 +1,28 @@
+.controlsButton {
+    background: none;
+    width: 40px;
+    height: 40px;
+    outline: 0;
+    border: 0;
+    color: var(--text-color);
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition:.5s;
+    border-radius: 50%;
+
+    
+}
+.controlsButton:hover {
+    background-color: rgb(var(--text-color), .5);
+    color: rgb(var(--background));
+    transition:.5s;
+}
+.controlsButtonPlay {
+    width: 55px;
+    height: 55px;
+    background-color: rgb(var(--text-color));
+    color: rgb(var(--background));
+}

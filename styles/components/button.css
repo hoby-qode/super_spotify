@@ -1,0 +1,10 @@
+.btn {
+    padding: 10px 15px;
+    font-size: 15px;
+}
+.btn-primary {
+    background-color: rgb(var(--color-primary));
+}
+.btn-secondary {
+    background-color: rgb(var(--color-secondary));
+}

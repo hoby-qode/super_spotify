@@ -1,0 +1,7 @@
+.albums_content > div {
+    border-radius: var(--radius);
+}
+.albums_text h3 {
+    text-transform: initial;
+    font-weight: 700;
+}
